@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- background properties in css -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Cool website">
+        <title>CSS Tutorial</title>
+
+        <style>
+
+            h1{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-weight: normal;
+                color: indigo;
+            }
+
+            p{
+                font-family: cursive;
+                font-variant: normal;
+                font-size: medium;
+                padding: 10px;
+            }
+
+            div{
+                color: darkred;
+                font-size: 25px;
+                font-weight: 100;
+                padding-left: 10px;
+                background: url(learn.jpg) no-repeat;
+                background-attachment: fixed;
+                background-position-x: right;
+                background-position-y: top;
+                background-size: 200px;
+                border: 5px dashed green;
+                background-origin: padding-box;
+                background-origin: content-box;
+            }
+
+        </style>
+
+    </head>
+    
+    <body style="background-color: bisque;">
+        <div>
+        <h1>
+            Let's learn CSS
+        </h1>
+        <p>
+            What is CSS?
+            <br/>
+            CSS stands for Cascading Style Sheets.
+            CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+            CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+            External stylesheets are stored in CSS files.
+        </p>
+        <hr>
+            <p>
+                Why Use CSS?
+                <br>
+                CSS is used to define styles for your web pages, including the design, layout and
+                variations in display for different devices and screen sizes.
+            </p>
+        <hr>    
+            <p>
+                CSS Solved a Big Problem!
+                <br>
+                HTML was NEVER intended to contain tags for formatting a web page!
+                HTML was created to describe the content of a web page, like:hen tags like font, and color attributes were added 
+                to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, 
+                where fonts and color information were added to every single page, became a long and expensive process.
+                To solve this problem, the World Wide Web Consortium (W3C) created CSS.
+                CSS removed the style formatting from the HTML page!
+            </p>
+        <hr>
+            <p>
+                CSS Saves a Lot of Work!
+                <br>
+                The style definitions are normally saved in external .css files.
+                With an external stylesheet file, you can change the look of an entire website by changing just one file!
+            </p>
+        <hr>
+            <p>
+                CSS Syntax
+                <br>
+                A CSS rule consists of a selector and a declaration block.The selector points to the HTML element you want to style.
+
+                The declaration block contains one or more declarations separated by semicolons.
+                
+                Each declaration includes a CSS property name and a value, separated by a colon.
+                
+                Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+            </p>
+        <hr>
+            <p>
+                CSS Selectors
+                <br>
+                A CSS selector selects the HTML element(s) you want to style.
+                CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+                We can divide CSS selectors into five categories:
+
+                Simple selectors (select elements based on name, id, class)
+                Combinator selectors (select elements based on a specific relationship between them)
+                Pseudo-class selectors (select elements based on a certain state)
+                Pseudo-elements selectors (select and style a part of an element)
+                Attribute selectors (select elements based on an attribute or attribute value)
+                This page will explain the most basic CSS selectors.
+            </p>
+        <hr>
+            <p>
+                The CSS id Selector
+                <br>
+                The id selector uses the id attribute of an HTML element to select a specific element.
+
+                The id of an element is unique within a page, so the id selector is used to select one unique element!
+
+                To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+            </p>    
+        </div>
+    </body>
+</html>
