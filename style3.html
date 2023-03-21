@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- blending images -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Cool website">
+        <title>Buy watches online</title>
+
+        <style>
+
+            div{
+                width: 1000px;
+                min-height: 800px;
+                border: 2px solid red;
+                background: no-repeat;
+                background-position: center;
+                background-size: cover;
+
+                background-image: linear-gradient(yellow,red), url(watch.jpg);
+                background-blend-mode: normal;
+                background-blend-mode: screen;
+                background-blend-mode: overlay;
+                background-blend-mode: soft-light;
+
+                padding: 20px;
+            }
+
+            h1{
+                color: darkolivegreen;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+
+        <h1>
+            Women's watches available at cool offers!
+        </h1>
+
+        <div>
+            This image is blended with yellow and red colours!
+        </div>
+
+    </body>
+</html>
